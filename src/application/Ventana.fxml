@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <AnchorPane fx:id="introduccion" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="inPanel1" layoutY="124.0" prefHeight="375.0" prefWidth="480.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="375.0" fitWidth="385.0" layoutX="53.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@pr.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="inPanel2S" layoutY="124.0" prefHeight="375.0" prefWidth="480.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="375.0" fitWidth="480.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@dedo.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="85.0" layoutY="52.0" prefHeight="59.0" prefWidth="310.0" text="INTRODUCCION" textFill="#f2f2f2" AnchorPane.bottomAnchor="489.0" AnchorPane.leftAnchor="85.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="52.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="61.0" layoutY="519.0" style="-fx-background-color: white; -fx-background-radius: 50px;" text="&lt;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="371.0" layoutY="519.0" style="-fx-background-color: white; -fx-background-radius: 50px;" text="&gt;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="manual" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="154.0" layoutY="123.0" prefHeight="27.0" prefWidth="176.0" text="Manual de Usuario" AnchorPane.bottomAnchor="450.0" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="123.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="111.0" fitWidth="397.0" layoutX="43.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="485.45867919921875" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="44.0">
+               <image>
+                  <Image url="@Logo.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="manejo" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="112.0" layoutY="57.0" prefHeight="59.0" prefWidth="310.0" text="MANEJO" AnchorPane.bottomAnchor="489.0" AnchorPane.leftAnchor="85.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="52.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="iconos" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: violet;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="85.0" layoutY="54.0" prefHeight="59.0" prefWidth="310.0" text="ICONOS">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="btnHome" layoutX="10.0" layoutY="123.0" text="Home" />
+      <JFXButton fx:id="atras2" text="jsdfchjsdkhf.j.s" />
+   </children>
+</AnchorPane>

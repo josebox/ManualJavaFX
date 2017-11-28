@@ -1,0 +1,16 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.botones{
+	-fx-background-color: linear-gradient(#4c656b, #61a2b8);
+	-fx-border-color: blue;
+	
+
+}
+
+.botones:hover{
+	-fx-background-color: linear-gradient(#4c659b, #61a2b9);
+	
+}
+
+.fondo{
+	-fx-background-color: linear-gradient(#4c659b, #61a2b9);
+}
